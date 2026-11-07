@@ -1,6 +1,6 @@
 # Youssef Hammounaicha
 
-Independent Developer focused on software development, web applications, and interactive interfaces.
+Independent Creative Director focused on software development, web applications, interactive interfaces and visual art.
 
 ## About Me
 
