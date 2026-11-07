@@ -1,82 +1,83 @@
-![Portfolio Banner](Monochrome%20Creative%20Developer%20Portfolio%20Banner.png)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
+  <img src="assets/header.svg" width="100%" alt="Youssef Hammounaicha — Creative Developer. Software, space and interaction. Based in Morocco, working worldwide.">
+</picture>
+
 # Youssef Hammounaicha
 
-### Creative Developer
-**Design-minded development. Interactive experiences. Digital products.**
+**Creative developer working at the intersection of software, design and real-time 3D.**
 
-Based in Morocco · Working worldwide
+I build digital products, interactive websites and spatial experiences, with an emphasis on clarity, usability and thoughtful visual execution.
 
----
+[Selected work](#selected-work) · [Toolbox](#toolbox) · [Connect](#connect)
 
-## About
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/terminal-mobile.svg">
+  <img src="assets/terminal.svg" width="100%" alt="Profile terminal: creative developer. Focus: software, 3D and interaction. Principle: clarity before complexity.">
+</picture>
 
-I build digital products where **technology, design, and interaction** come together.
+## Selected work
 
-My work spans creative websites, immersive 3D environments, and full-stack software — with a focus on precision, usability, and thoughtful visual execution.
+### CW3 / Warehouse Digital Twin
 
-I enjoy turning complex ideas into experiences that feel intuitive, functional, and distinctive.
-
-## Selected Work
-
-### 01 / CW3 — Warehouse Digital Twin
-
-A warehouse management system combining operational workflows with interactive 3D visualization.
+A warehouse management system connecting operational workflows with interactive 3D visualization.
 
 `Next.js` · `React` · `Three.js` · `FastAPI` · `PostgreSQL`
 
-**Status:** In development · Private repository
+**In development · Private project.** Source code remains private.
 
-### 02 / ATELIER 01 — Architectural Web Experience
+### ATELIER 01 / Architectural Web Experience
 
-An exploration of architecture, materials, motion, and spatial storytelling through the web.
+An exploration of architecture, materials, motion and spatial storytelling through the web.
 
 `Next.js` · `React Three Fiber` · `TypeScript` · `Motion`
 
-**Status:** Experimental project
+**Experimental project.**
 
-### 03 / 3D Lab — Interactive Environments
+### 3D Lab / Interactive Environments
 
-Experiments in real-time 3D, visual storytelling, and immersive digital interfaces.
+Experiments in real-time 3D, visual storytelling and immersive digital interfaces.
 
 `Three.js` · `Blender` · `WebGL`
 
-**Status:** Research & development
+**Research & development.**
 
----
+## Working principles
 
-## Expertise
+Clarity over complexity. Function before decoration. Details make the difference.
 
-**Creative Development**  
-Interactive websites, motion systems, and digital experiences.
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/signals-mobile.svg">
+  <img src="assets/signals.svg" width="100%" alt="Design-minded: thoughtful visual execution. Spatial: real-time 3D experiences. Functional: useful digital products.">
+</picture>
 
-**3D & Spatial Interfaces**  
-Real-time rendering, immersive environments, and interactive visualization.
+## Toolbox
 
-**Software Development**  
-Full-stack applications, custom tools, and operational systems.
-
-## Technology
-
-**Frontend** — TypeScript, React, Next.js, Tailwind CSS  
-**3D & Motion** — Three.js, React Three Fiber, Blender, Motion  
-**Backend** — Python, FastAPI, PostgreSQL  
+**Frontend** — TypeScript, React, Next.js, Tailwind CSS<br>
+**3D & motion** — Three.js, React Three Fiber, Blender, Motion<br>
+**Backend** — Python, FastAPI, PostgreSQL<br>
 **Workflow** — Git, GitHub, AI-assisted development
 
----
+## Contribution trail
 
-## Approach
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/snake-static.svg">
+  <img src="assets/snake.svg" width="100%" alt="Snake animation of the public contribution graph for youssef-hammounaicha.">
+</picture>
 
-**Clarity over complexity.**  
-**Function before decoration.**  
-**Details make the difference.**
+Generated daily from GitHub contributions with [Platane/snk](https://github.com/Platane/snk). This graph is an activity view, not a measure of the work held in private projects.
 
-I believe great digital products should work beautifully and feel effortless to use.
+## Connect
 
----
+Based in **Morocco**, working worldwide. Open to creative collaborations, digital projects and new opportunities.
 
-### Let's Connect
+[Find me on GitHub](https://github.com/youssef-hammounaicha)
 
-Open to creative collaborations, digital projects, and new opportunities.
+<details>
+<summary>Original portfolio artwork & credits</summary>
 
-**Location:** Morocco  
-**GitHub:** [github.com/youssef-hammounaicha](https://github.com/youssef-hammounaicha)
+<img src="Monochrome%20Creative%20Developer%20Portfolio%20Banner.png" width="100%" alt="Original monochrome portfolio banner for Youssef Hammounaicha, featuring architectural concrete and light.">
+
+Original portfolio artwork preserved. Custom SVG identity and terminal assets created for this profile. Self-contained panels and signals inspired by [Profile Signal Kit](https://github.com/saroo98/profile-signal-kit); no template source or assets copied.
+
+</details>

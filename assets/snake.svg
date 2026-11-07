@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="110" viewBox="0 0 960 110" role="img" aria-labelledby="title desc">
+<title id="title">Contribution animation awaiting its first successful GitHub Actions run</title><desc id="desc">Original monochrome profile artwork for Youssef Hammounaicha.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#edf1f7}.mono{font-family:Consolas,monospace}.muted{fill:#acb8c8}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" fill="#090c10"/><text x="30" y="49" font-size="22">Contribution animation</text><text x="30" y="80" font-size="16" class="muted">The first successful workflow run will generate the live graph.</text></svg>

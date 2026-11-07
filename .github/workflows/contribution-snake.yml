@@ -1,0 +1,52 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/contribution-snake.yml'
+      - 'scripts/freeze-snake.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the public profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+
+      - name: Generate the public contribution graph
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg?color_snake=#a5b9d3&color_dots=#161b22,#384453,#65758a,#9eafc5,#e1e9f4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create a reduced-motion alternative
+        run: python3 scripts/freeze-snake.py
+
+      - name: Update only the generated assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/snake.svg assets/snake-static.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: refresh contribution trail'
+          git pull --rebase origin main
+          git push origin HEAD:main

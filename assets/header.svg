@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">Youssef Hammounaicha — Creative Developer</title><desc id="desc">Original monochrome profile artwork for Youssef Hammounaicha.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#edf1f7}.mono{font-family:Consolas,monospace}.muted{fill:#acb8c8}.cursor{animation:cursor 1.2s steps(2,end) 4}@keyframes cursor{50%{opacity:0}}.trace{animation:trace 4.8s linear 1}@keyframes trace{from{stroke-dashoffset:296}to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" fill="#090c10"/><path d="M0 48H960" stroke="#29323f"/>
+<circle cx="48" cy="24" r="4" fill="#dce4ee"/><text x="64" y="29" font-size="12" class="mono muted">youssef / creative developer</text>
+<text x="48" y="142" font-size="66" letter-spacing="-2">Youssef</text>
+<text x="46" y="215" font-size="66" letter-spacing="-2">Hammounaicha<tspan class="cursor" fill="#b9c9dd">_</tspan></text>
+<text x="48" y="286" font-size="23">Software. Space. Interaction.</text>
+<text x="48" y="326" font-size="13" class="mono muted">Morocco · Working worldwide</text><g fill="none" stroke="#8495aa" stroke-width="1.2"><path d="M775 83L905 158L775 233L645 158Z"/><path d="M645 158V245L775 320L905 245V158M775 233V320"/><path d="M710 120L840 195V282M840 120L710 195V282" opacity=".35"/></g><path class="trace" d="M645 158L775 233L905 158" fill="none" stroke="#e6eef9" stroke-width="2" stroke-dasharray="16 280"/></svg>
