@@ -44,3 +44,4 @@ Generated from the public contribution graph with [Platane/snk](https://github.c
 ## Contact
 
 - [GitHub](https://github.com/youssef-hammounaicha)
+- [LinkedIn](https://www.linkedin.com/in/youssef-hammounaicha-439a08449/)
