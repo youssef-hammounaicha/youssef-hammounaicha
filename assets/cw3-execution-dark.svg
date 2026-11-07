@@ -7,15 +7,15 @@
     <filter id="industrial-glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs><style>
     text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
-    .micro{font-size:9px;letter-spacing:2px}.label{font-size:11px;letter-spacing:2.5px;font-weight:700}
+    .micro{font-size:11px;letter-spacing:1.4px}.label{font-size:14px;letter-spacing:2px;font-weight:700}
     .flow{stroke-dasharray:6 9;animation:flow 7s linear infinite}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
     .scan{animation:scan 5s ease-in-out infinite}.flicker{animation:flicker 2.2s ease-in-out infinite}.boot{animation:boot .8s cubic-bezier(.2,.8,.2,1) both}
     @keyframes flow{to{stroke-dashoffset:-150}}@keyframes pulse{50%{opacity:.35;transform:scale(.72)}}
     @keyframes scan{50%{opacity:.28;transform:translateX(24px)}}@keyframes flicker{50%{opacity:.38}}@keyframes boot{from{opacity:0}to{opacity:1}}
     @media(prefers-reduced-motion:reduce){.flow,.pulse,.scan,.flicker,.boot{animation:none}}
   </style><rect width="1200" height="330" rx="18" fill="url(#industrial-bg)"/><rect width="1200" height="330" rx="18" fill="url(#industrial-grid)" opacity=".68"/>
-      <text x="28" y="33" class="label" fill="#C4CBD4">EXECUTION DECK / MISSION BUS</text><text x="1170" y="33" text-anchor="end" class="micro" fill="#8BA9B5" textLength="340" lengthAdjust="spacingAndGlyphs">01 CHANNELS Â· STATUS IN DEVELOPMENT Â· NOT RECORâ€¦</text>
+      <text x="28" y="33" class="label" fill="#C4CBD4">EXECUTION DECK / MISSION BUS</text><text x="1170" y="33" text-anchor="end" class="micro" fill="#8BA9B5">01 CHANNELS Â· STATUS IN DEVELOPMENT Â· NOT RECORâ€¦</text>
       <path d="M42 164H1158" stroke="#2B4A57" stroke-width="5"/><path class="flow" d="M42 164H1158" stroke="url(#industrial-accent)" stroke-width="2"/><path d="M42 151V177M1158 151V177" stroke="#C4CBD4"/><g><path d="M600.0 164V122" stroke="#C4CBD4" stroke-opacity=".66"/><circle cx="600.0" cy="164" r="4" fill="#C4CBD4"/>
           <path d="M518.0 50H672.0L682.0 60V106H518.0Z" fill="#0C1C24" stroke="#C4CBD4"/>
-          <text x="534.0" y="70" font-size="8" letter-spacing="1.2" fill="#C4CBD4">01 / CW3</text><text x="534.0" y="91" font-size="10" font-weight="800" fill="#E7F7FC">CW3</text><circle class="pulse" cx="661.0" cy="89" r="3" fill="#C4CBD4"/></g>
-      <rect x="542" y="153" width="116" height="22" rx="4" fill="#07131A" stroke="#2B4A57"/><text x="600" y="168" text-anchor="middle" font-size="8" font-weight="700" letter-spacing="2" fill="#8BA9B5" textLength="100" lengthAdjust="spacingAndGlyphs">PHASE / NOT PUBLISHED</text><rect x="1" y="1" width="1198" height="328" rx="18" fill="none" stroke="#94A3B8" stroke-opacity=".6"/></svg>
+          <text x="534.0" y="70" font-size="11" letter-spacing="1" fill="#C4CBD4">01 / CW3</text><text x="534.0" y="91" font-size="12" font-weight="800" fill="#E7F7FC">CW3</text><circle class="pulse" cx="661.0" cy="89" r="3" fill="#C4CBD4"/></g>
+      <rect x="542" y="153" width="116" height="22" rx="4" fill="#07131A" stroke="#2B4A57"/><text x="600" y="168" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1.2" fill="#8BA9B5">PHASE / NOT PUBLISHED</text><rect x="1" y="1" width="1198" height="328" rx="18" fill="none" stroke="#94A3B8" stroke-opacity=".6"/></svg>

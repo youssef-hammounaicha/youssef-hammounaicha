@@ -46,7 +46,7 @@ def svg(state, history, mode):
     template = template_path.read_text(encoding="utf-8")
     latest = history[-1][1] if history else None
     updated = state.get("last_updated") or (latest.get("date") if latest else "NOT RECORDED")
-    status = compact(state.get("status") or "IN DEVELOPMENT", 16)
+    status = compact(state.get("status") or "IN DEVELOPMENT", 14)
     phase = compact(state.get("phase") or "NOT PUBLISHED", 18)
     updated = compact(updated, 10)
     # Keep the original Command Deck geometry and animation system. Only replace
@@ -54,8 +54,6 @@ def svg(state, history, mode):
     template = template.replace("Ã‚Â·", "Â·")
     template = re.sub(r"\d+ CHANNELS [^<]+", f"01 CHANNELS Â· STATUS {safe(status)} Â· {safe(updated)}", template, count=1)
     template = re.sub(r"(?:COMMAND BUS|PHASE / [^<]+)", f"PHASE / {safe(phase)}", template, count=1)
-    template = re.sub(r"(<text x=\"1170\"[^>]*)(>)", r'\1 textLength="340" lengthAdjust="spacingAndGlyphs"\2', template, count=1)
-    template = re.sub(r"(<text x=\"600\"[^>]*)(>)", r'\1 textLength="100" lengthAdjust="spacingAndGlyphs"\2', template, count=1)
     return template
     # The code below documents the former standalone renderer; the native
     # template above is intentionally authoritative.
