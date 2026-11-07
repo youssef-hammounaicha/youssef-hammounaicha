@@ -36,6 +36,9 @@ def reports():
 def safe(value): return escape(str(value))
 def compact(value, limit):
     """Keep dynamic labels inside the native Command Deck text boxes."""
+    if len(str(value or "").strip()) > limit:
+        text = re.sub(r"\s+", " ", str(value or "")).strip()
+        return text[: max(1, limit - 3)].rstrip() + "..."
     text = re.sub(r"\s+", " ", str(value or "")).strip()
     return text if len(text) <= limit else text[: max(1, limit - 1)].rstrip() + "â€¦"
 def lines(values, empty="None publicly recorded"):
@@ -51,9 +54,11 @@ def svg(state, history, mode):
     updated = compact(updated, 10)
     # Keep the original Command Deck geometry and animation system. Only replace
     # text payloads inside its existing labels and panels.
+    template = template.replace("Ã‚Â·", " / ").replace("Ã¢â‚¬Â¦", "...")
     template = template.replace("Ã‚Â·", "Â·")
     template = re.sub(r"\d+ CHANNELS [^<]+", f"01 CHANNELS Â· STATUS {safe(status)} Â· {safe(updated)}", template, count=1)
     template = re.sub(r"(?:COMMAND BUS|PHASE / [^<]+)", f"PHASE / {safe(phase)}", template, count=1)
+    template = template.replace("Ã‚Â·", " / ").replace("Ã¢â‚¬Â¦", "...")
     return template
     # The code below documents the former standalone renderer; the native
     # template above is intentionally authoritative.
