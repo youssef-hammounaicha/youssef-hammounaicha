@@ -1,36 +1,28 @@
-# Youssef Hammounaicha
+Hey, I’m Youssef 👋
 
-Independent Creative Director focused on software development, web applications, interactive interfaces and visual art.
+Independent Developer & Creative Technologist
 
-## About Me
+I’m a self-taught builder exploring the intersection of software, design, and emerging technologies.
 
-I enjoy building thoughtful software, clear web experiences, and interactive interfaces that balance useful functionality with careful visual detail. I am especially interested in the space between code, interaction, and 3D experiences.
+I learn through experimentation, independent projects, and hands-on development.
 
-## What I Build
+What I Explore
 
-- Software applications
-- Web applications
-- Interactive interfaces
-- 3D experiences
+* Software & Web Development — Websites, applications, and interactive experiences.
+* 3D & Creative Technology — Real-time graphics, visualization, and immersive interfaces.
+* AI & Automation — Intelligent workflows, agents, and automation systems.
+* Cybersecurity — Security tools, research, and experimentation.
+* Open Source — Building, sharing, and improving useful software.
 
-## Featured Project
+My Philosophy
 
-### CW3
+Learn. Experiment. Build. Iterate.
 
-**Category:** Warehouse Management / Digital Twin<br>
-**Status:** In Development<br>
-**Repository:** Private
+No single discipline. Just curiosity, creativity, and a drive to turn ideas into working systems.
 
-CW3 is a personal project currently under development. This profile shares only its public status and does not expose private source code or internal project information.
+Open to
 
-## Tech Stack
-
-The public profile repository currently uses:
-
-- Markdown
-- SVG
-- Python
-- GitHub Actions
+Open-source contributions, technical collaborations, and interesting projects.
 
 ## Contribution Activity
 
